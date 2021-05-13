@@ -1,0 +1,172 @@
+/* Login and registration background image style */
+.background-image {
+    background-image: url("watermark.png"); /*Getting the watermark image*/
+    height: 500px; /*Height 500*/
+    background-position: center; /*Putting the position in centre*/
+    background-repeat: no-repeat; /*Preventing the repetition of the background*/
+    background-size: 500px 450px; /*Setting the background size */
+    position: relative; /* Making the position relative*/
+    opacity: 0.2;/* Setting the opacity to 0.2 */
+    margin-top: 20px;/* Setting the margin from the top*/
+}
+/* Background image for home */
+.background-image2 {
+    background-image: url("watermark.png"); /*Getting the watermark image*/
+    height: 550px;
+    background-position: center;
+    margin-left: 0px; /* Putting in margin to the left */
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    position: relative;
+    opacity: 0.2;
+    margin-top: 10px;
+
+}
+
+/**/
+#covid_header {
+    background-color: #adb9ca;
+    padding: 10px;
+    font-family: Arial, serif;
+}
+
+
+#covid_text_header
+{
+    margin-top: 20px;
+    font-family: Arial, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+input[type=text], input[type=password], input[type=select] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: Times New Roman, serif;
+    text-align: center;
+    font-size: 20px;
+    background: transparent;
+    color: black;
+}
+.form_box /* Login container div tag */
+{
+    width: 400px;
+    margin-left: auto; /* Used to centre the container */
+    margin-right: auto; /* Used to centre the container */
+    opacity: 1.0;
+}
+
+
+.title{
+    text-align: center;
+    margin-top: auto;
+    font-family: Arial, cursive ;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.main /* Main div */
+{
+    width: 1050px; /* Setting the width on the page */
+    margin-left: 250px; /* Margin left  */
+    margin-right: 250px; /* Margin right  */
+    opacity: 1.0; /* Making sure opacity is set to 1 */
+
+}
+
+/* Line on the pages*/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.writing {
+    width:1050px;
+    position: absolute;
+    top: 100px;
+    opacity: 1.0;
+    right: 300px;
+    left: 300px;
+
+}
+
+
+
+.container {
+    width:400px;
+    position: absolute;
+    top: 170px;
+    opacity: 1.0;
+
+}
+
+
+.sidenav {
+    margin-top: 20px;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #adb9ca;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.button-area {
+    margin-top: 80px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #adb9ca;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    height: 60px;
+    font-family: Arial, serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #8497B0;
+    color: black;
+}
+li a.hover {
+    /* Dark grey background on mouse-over */
+    background-color: rgb(132, 151, 176);
+}
+
+/* Logout on the bottom */
+.sidebar-footer{
+    height: 90px; /* Setting the correct height for the logout button */
+    position: absolute;
+    width: 100%; /*Setting the width*/
+    bottom: 0; /* Getting the correct height from the bottom */
+    list-style-type: none;
+}
